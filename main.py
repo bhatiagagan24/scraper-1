@@ -4,7 +4,7 @@ import pymongo
 
 import json
 
-myclient = pymongo.MongoClient("mongodb+srv://gdb101:gaganonmongodb100@cluster0.xcgis.mongodb.net/questionBank?retryWrites=true&w=majority")
+myclient = pymongo.MongoClient("")
 mydb = myclient["learncbse"]
 mycol = mydb["class_9th"]
 
